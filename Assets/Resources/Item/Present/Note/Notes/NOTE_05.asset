@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfdec4f8004a544dad039be5b658580, type: 3}
+  m_Name: NOTE_05
+  m_EditorClassIdentifier: 
+  itemRealName: "\uB2E4\uC12F \uBC88\uC9F8 \uB2E8\uC11C"
+  itemName: NOTE_05
+  itemDesc: "\uC218\uC0C1\uD574 \uBCF4\uC774\uB294 \uC885\uC774\uAC00 \uD074\uB9BD\uBCF4\uB4DC\uC5D0
+    \uB07C\uC6CC\uC838\uC788\uB2E4."
+  itemRealDesc: "\uD558\uB77C\uB294 \uB300\uB85C \uD560 \uD544\uC694\uB3C4 \uC5C6\uACE0."
+  itemType: 1
+  itemImage: {fileID: 21300000, guid: 0c2929e521d06ba4ab25dcfd047f93e1, type: 3}
+  itemPrefab: {fileID: 528049618520353955, guid: 7836ca26cca3f68469f0b11f204247a2,
+    type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfdec4f8004a544dad039be5b658580, type: 3}
+  m_Name: BUTTEFLY
+  m_EditorClassIdentifier: 
+  itemRealName: "\uB098\uBE44"
+  itemName: ButterFly
+  itemDesc: "\uB0A0\uAC1C \uBB38\uC591\uC774 \uD654\uB824\uD55C \uB098\uBE44."
+  itemRealDesc: "\uC218\uB824\uD55C \uB0A0\uAC1C \uBB38\uC591\uC774 \uC2DC\uC120\uC744
+    \uC0AC\uB85C\uC7A1\uB294\uB2E4. \uC65C \uC5EC\uAE30 \uC788\uB294\uC9C0\uB294
+    \uC54C \uC218 \uC5C6\uB2E4."
+  itemType: 0
+  itemImage: {fileID: 21300000, guid: a3d1f1e8c7759314fa6c438068a1cf83, type: 3}
+  itemPrefab: {fileID: 7190192783072188778, guid: a9fc03c14d7701d4c84723067d48f50f,
+    type: 3}
