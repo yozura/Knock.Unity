@@ -1,6 +1,9 @@
-# Knock
+# 프로젝트에 대해
 <table style="border-collapse: collapse; width: 0%; height: 107px;" border="1"><tbody><tr style="height: 20px;"><td style="width: 21.8604%; height: 10px; text-align: center;"><b>프로젝트 명</b></td><td style="width: 78.1396%; height: 10px; text-align: center;">Knock</td></tr><tr style="height: 20px;"><td style="width: 21.8604%; height: 20px; text-align: center;"><b>수행기간</b></td><td style="width: 78.1396%; height: 20px; text-align: center;">2020. 05. 18. ~ 06. 19. (기획 1주, 개발 4주)</td></tr><tr style="height: 20px;"><td style="width: 21.8604%; height: 20px; text-align: center;"><b>프로젝트 목표 / 소개</b></td><td style="width: 78.1396%; height: 20px; text-align: center;">스테이지 형식의 간단한 방탈출 게임입니다.<br>괴물이나 귀신에 의한 시각적인 공포가 아닌 현실적인 사운드와<br>무지에서 오는 상상력을 이용해 플레이어가 서스펜스를 느낄 수 있도록 설계했습니다.<br>장르는 공포 방탈출 게임이며 플랫폼은 PC입니다.</td></tr><tr style="height: 20px;"><td style="width: 21.8604%; height: 20px; text-align: center;"><b>개발환경</b><br><b>(사용 도구/ 언어)</b></td><td style="width: 78.1396%; height: 20px; text-align: center;">C#<br>유니티3D 엔진</td></tr><tr style="height: 20px;"><td style="width: 21.8604%; height: 10px; text-align: center;"><b>담당 역할</b></td><td style="width: 78.1396%; height: 10px; text-align: center;">기획과&nbsp;프로그래밍을&nbsp;홀로&nbsp;했으며&nbsp;3D모델&nbsp;및&nbsp;이미지는&nbsp;무료&nbsp;에셋을&nbsp;이용했습니다.<br>기획으로는 스토리 구축, 트리거 순서, 모델 선정, UI 위치 설정, 아이템 정보를 기입했습니다.<br>프로그래밍으로는 전체적인 게임의 알고리즘을 설계하였고,<br>대표적으로 ScriptableObject를 활용해 아이템을 생성, 도감 및 인벤토리를 구현했습니다.</td></tr><tr style="height: 27px;"><td style="width: 21.8604%; text-align: center; height: 27px;"><b>플레이 영상</b></td><td style="width: 78.1396%; text-align: center; height: 27px;"><a href="https://youtu.be/2Yhp5GcEhXM" target="_blank" rel="noopener">youtu.be/2Yhp5GcEhXM</a></td></tr></tbody></table>
-[##_Image|kage@bNPAdy/btqHb0RPTJt/GONYISXI6jcFSi2eOuLrCK/img.png|alignCenter|data-filename="01.PNG" data-origin-width="1275" data-origin-height="754" data-ke-mobilestyle="widthContent"|&lt;게임 시작시 첫 화면(타이틀 메뉴)&gt;||_##]
+
+# 프로젝트 리뷰
+![01](https://user-images.githubusercontent.com/63341938/100213535-14ef8f80-2f52-11eb-8c4a-2d3e1db3a7c5.PNG)  
+__<게임 시작시 첫 화면>__
 
  타이틀 로고는 유니티 내부에서 지원하는 텍스트 애니메이션을 이용해서 흰색에서 붉은색, 붉은색에서 투명으로 계속해서 전환되게끔 만들었습니다. START 버튼을 클릭하면 로딩 후 게임이 시작되며 EXIT 버튼을 클릭하면 게임이 종료됩니다.
 
