@@ -173,6 +173,7 @@ public class FurnitureAction : MonoBehaviour
     public void PillowAction(GameObject go_Pillow)
     {
         PlayerScript.instance.DesPrint("베개를 옮겼다");
+        SoundManager.instance.PlaySoundEffect("Open_Draw");
         go_Pillow.GetComponent<Animator>().SetTrigger("IsMoving");
         go_Pillow.GetComponent<OpenManager>().isMoving = true;
     }

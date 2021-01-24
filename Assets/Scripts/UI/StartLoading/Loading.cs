@@ -24,8 +24,9 @@ public class Loading : MonoBehaviour
         // 다음 화면으로 넘어가기위해 true로 바꿔줄 것이다. false는 아직 안넘어갔다는 뜻
         asyncScene.allowSceneActivation = false;
         float timeC = 0;
+        
         // 비동기적 로드가 완료 될 때까지 실행한다
-        while(!asyncScene.isDone)
+        while (!asyncScene.isDone)
         {
             yield return new WaitForSeconds(0.08f);
             // 타임 float값에 프레임값을 넣어주고

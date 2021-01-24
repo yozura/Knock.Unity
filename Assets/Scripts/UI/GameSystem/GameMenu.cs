@@ -8,12 +8,6 @@ public class GameMenu : MonoBehaviour
     [SerializeField] private GameObject keySet = null;
     [SerializeField] private GameObject gameMenu = null;
     [HideInInspector] private GameObject titleMenu;
-    private SaveAndLoad theSaveAndLoad = null;
-
-    private void Start()
-    {
-        theSaveAndLoad = FindObjectOfType<SaveAndLoad>();
-    }
 
     void Update()
     {
@@ -47,12 +41,6 @@ public class GameMenu : MonoBehaviour
         GameObject.Find("UI_Present").GetComponent<Canvas>().enabled = false;
         GameObject.Find("TitleMenu").transform.Find("OptionPanel").gameObject.SetActive(true);
         titleMenu.GetComponent<Canvas>().enabled = true;
-    }
-
-    public void OnSave()
-    {
-        SoundManager.instance.PlaySoundEffect("Button_Click");
-        theSaveAndLoad.SaveData();
     }
 
     public void GoMainMenu()

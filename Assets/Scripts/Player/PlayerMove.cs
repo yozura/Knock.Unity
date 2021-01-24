@@ -31,7 +31,6 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]
     private Camera myCamera = null;
     private Rigidbody myRigid;
-    private GunController theGunController;
     private Crosshair theCrosshair;
     private StatusController theStatusController;
     private Inventory theInven;
@@ -51,7 +50,6 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         theCrosshair = FindObjectOfType<Crosshair>();
-        theGunController = FindObjectOfType<GunController>();
         theStatusController = FindObjectOfType<StatusController>();
         theInven = FindObjectOfType<Inventory>();
         myRigid = GetComponent<Rigidbody>();
@@ -193,7 +191,6 @@ public class PlayerMove : MonoBehaviour
         if (isCrouch)
             Crouch();
 
-        theGunController.CancelFineSight();
         theStatusController.DecreaseStamina(10);
 
         isRun = true;

@@ -20,16 +20,9 @@ public class StartButton : MonoBehaviour
     }
     #endregion Singleton
 
-    private SaveAndLoad theSaveAndLoad;
-
     public GameObject loadBG = null;
     [SerializeField] GameObject optional = null;
     [SerializeField] GameObject holdPanel = null;
-
-    private void Start()
-    {
-        theSaveAndLoad = FindObjectOfType<SaveAndLoad>();
-    }
 
     public void OnStart()
     {
@@ -45,12 +38,6 @@ public class StartButton : MonoBehaviour
         GetComponent<Canvas>().enabled = false;
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Loading");
-    }
-
-    public void OnLoad()
-    {
-        theSaveAndLoad.LoadData();
-        SoundManager.instance.PlaySoundEffect("Button_Click");
     }
 
     public IEnumerator LoadCoroutine()

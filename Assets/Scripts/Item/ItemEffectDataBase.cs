@@ -40,11 +40,11 @@ public class ItemEffectDataBase : MonoBehaviour
                         switch (itemEffects[i].part)
                         {
                             case SP:
-                                thePlayerStatus.IncreaseSP(itemEffects[i].num);
+                                thePlayerStatus.IncreaseSP(itemEffects[j].num);
                                 GameObject sp_clone = Instantiate(
                                                         p_SP_POTION,
                                                         new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z),
-                                                        Quaternion.Euler(new Vector3(-90f, 0f, 0f))) as GameObject;
+                                                        Quaternion.Euler(new Vector3(-90f, 0f, 0f)));
                                 sp_clone.transform.parent = player.transform;
                                 PlayerScript.instance.SoundPrint(theInvens.c_itemSlots[0].item_Collection.itemRealName + " 을(를) 마시는 소리");
                                 SoundManager.instance.PlaySoundEffect("Potion_Drink");

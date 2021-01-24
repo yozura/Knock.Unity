@@ -5,12 +5,6 @@ using UnityEngine.UI;
 
 public class StatusController : MonoBehaviour
 {
-    // 배터리
-    //private float bat_capacity = 0f;
-    //private float bat_decrease = 0f;
-    //[SerializeField]
-    //private float bat_current = 0f;
-
     // 스태미나
     [SerializeField]
     private int sp = 0;
@@ -27,8 +21,6 @@ public class StatusController : MonoBehaviour
 
     // 스태미나 감소 여부
     private bool spUsed = false;
-    // 손전등 사용 여부
-    //private bool batUsed;
 
     // 필요한 이미지
     [SerializeField]
@@ -38,9 +30,6 @@ public class StatusController : MonoBehaviour
 
     void Start()
     {
-        //bat_capacity = 100f;
-        //bat_decrease = 1f;
-        //bat_current = bat_capacity;
         currentSp = sp;
     }
 
@@ -56,30 +45,6 @@ public class StatusController : MonoBehaviour
     {   
         gaugeBar.fillAmount = (float)currentSp / sp;
     }
-
-    //public void DecreaseBattery()
-    //{
-    //    batUsed = !batUsed;
-    //    if (batUsed)
-    //    {
-    //        StartCoroutine(Bat());
-    //    }
-    //}
-
-    //IEnumerator Bat()
-    //{
-    //    WaitForSeconds wait = new WaitForSeconds(1f);
-    //    while(batUsed)
-    //    {
-    //        bat_current -= bat_decrease;
-    //        if (bat_current <= 0f)
-    //        {
-    //            bat_current = 0f;
-    //            yield break;
-    //        }
-    //        yield return wait;
-    //    }
-    //}
 
     // 달리기로 인해 스태미나가 깎인 경우
     public void DecreaseStamina(int _count)
@@ -141,9 +106,5 @@ public class StatusController : MonoBehaviour
         return currentSp;
     }
 
-    //public float GetCurrentBat()
-    //{
-    //    return bat_current;
-    //}
 }
 
