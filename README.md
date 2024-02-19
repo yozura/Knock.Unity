@@ -283,6 +283,8 @@ public abstract class CollectionSystem : MonoBehaviour, IPointerEnterHandler, IP
 # 끝
 
 여기까지 이 게임에서 중점적으로 사용된 기능들의 코드를 리뷰해보았습니다.  
+
 플레이 영상은 글 상단 표 링크에 달아놨습니다. 
-저장소를 다운로드하셔서 에디터에서 확인 가능하고 플레이를 원하신다면 Release 탭에서 다운로드하여 즐겨주시기 바랍니다.
+
+저장소를 다운로드하셔서 에디터에서 확인 가능하고 플레이를 원하신다면 Release 탭에서 다운로드하여 즐겨주시기 바랍니다.  
 감사합니다.
